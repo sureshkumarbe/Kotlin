@@ -27,7 +27,13 @@ fun main(){
     val text = "Welcome to our course"
     val length = text.length
 
-    val subtext = text.substring(0,7)
+    val subtext = text.substring(0,7) //starting index and ending index - 1
     println("The length of text is " + length)
     println("Sub Text is = " + subtext)
+
+//    String Comparison
+    val str1 = "Hello"
+    val str2 = "Hai"
+    val comparisonresult = str1.equals(str2)
+    println("String Comparison of two string is = " + comparisonresult)
 }
