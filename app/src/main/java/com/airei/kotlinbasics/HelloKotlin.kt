@@ -25,7 +25,41 @@ fun main(){
     // Immuatable Variable
     val pi : Double = 3.14159
 
-    println("Hello World")
+    println("My Age is " + myAge)
+
+    // Data Types
+    // Byte : -128 to 127
+    val myByte : Byte = 125
+
+    // Short : -32786 to 32767
+    val myShort : Short = 5476
+
+    // Int : approx -2 Billion to 2 Billion
+    val myInt : Int = 478595
+
+    // Long : -9223372036854775807 to 9223372036854775807
+    val myLong : Long = 88345945857745
+
+    // Float : Store values with fractional parts
+    val myFloat : Float = 3.14159f
+
+    // Double : Store values with greater precision
+    val myDouble : Double = 2.754456456
+
+    // Boolean : True or False
+    val isRaining : Boolean = true
+
+    if(isRaining){
+        println("Its raining outside")
+    }else{
+        println("Its not raining outside")
+    }
+
+    // Characters : Represent single character (Letter, Digit, Symbol or Special Characters..)
+    val char : Char = 'A'
+    val char1 : Char = '8'
+    val char2 : Char = '\n'
+
 
     /*
     * Multiline Comment
