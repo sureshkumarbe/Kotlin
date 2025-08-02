@@ -36,4 +36,8 @@ fun main(){
     val str2 = "Hai"
     val comparisonresult = str1.equals(str2)
     println("String Comparison of two string is = " + comparisonresult)
+
+//    String Literals
+    val newlineText = "This is first line\nThis is the second line"
+    println(newlineText)
 }
